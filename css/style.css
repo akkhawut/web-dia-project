@@ -1,0 +1,66 @@
+/* Import */
+@import url("https://fonts.googleapis.com/css?family=Mitr");
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
+
+/* Css Code */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Content Properties */
+.font-yeseva {
+  font-family: "Yeseva One", cursive;
+}
+
+.font-mitr {
+  font-family: "Mitr", sans-serif;
+}
+
+.default-font-size-extra-small {
+  font-size: 8px;
+}
+
+.default-font-size-small {
+  font-size: 10px;
+}
+
+.default-font-size {
+  font-size: 16px;
+}
+
+.default-font-size-large {
+  font-size: 24px;
+}
+
+.default-font-size-extra-large {
+  font-size: 48px;
+}
+
+/* Content Section */
+.homeSection {
+  height: 100vh;
+  background-color: #d65db1;
+}
+
+.contentSection {
+  height: 100vh;
+  background-color: #ff6f91;
+}
+
+nav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
